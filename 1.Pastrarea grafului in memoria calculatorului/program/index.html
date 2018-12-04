@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<title>Laborator Nr.1 la MD</title>
+	<script src="libs/jquery-1.12.0.min.js"></script>
+	<script src="main.js"></script>
+	<link href="style.css" rel="stylesheet" type='text/css'>
+</head>
+<body>
+
+
+<br>
+<div id="nVirfuriWrapper" class="centered">
+	<h1>1. Numărul de vârfuri:</h1><br>
+	<input type="text" id="nVirfuri"><br><br><span id="nVirfuriError">&nbsp;</span>
+</div>
+<br>
+
+
+<div class="centered">
+	<h1>2. Va fi completată:</h1><br>
+	<button id="mAdiacenta">Matricea de adiacență</button>
+	<button id="mIncidenta">Matricea de incidență</button>
+	<button id="lAdiacenta">Lista de adiacență</button><br><br>
+	<div id="error" class="centered">&nbsp;</div>
+</div>
+<br>
+
+
+<br>
+<div class="centered">
+	<div id="nArcuriWrapper" class="centered">
+		<b>Numărul de arcuri:</b><br><br>
+		<input type="text" id="nArcuri"><br><br><span id="nArcuriError"></span>
+	</div><br>
+	<table id="matrice"></table>
+</div>
+
+
+<div id="export" class="centered">
+	<h1>Forme de reprezentare:</h1>
+	<br>
+	<b>Matricea de adiacență</b><br><br>
+	<table id="exportAdiacenta">
+
+	</table>
+	<br>
+	<b>Matricea de incidență</b><br><br>
+	<table id="exportIncidenta">
+
+	</table>
+	<br>
+	<b>Lista de adiacență</b><br><br>
+	<table id="exportLista">
+
+	</table>
+<br><br>
+	<div id="grafWrapper" class="centered">
+		<a href="graf.html" target="_blank"><button>Reprezentare grafică</button></a>
+	</div>
+</div>
+<br><br>
+<div id="copy" class="centered">Miron Constantin &copy; gr. AI-151, UTM, 2016</div>
+<br><br>
+</body>
+</html>

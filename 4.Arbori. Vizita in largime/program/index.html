@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+	<title>Laborator la MD</title>
+
+	<script src="libs/jquery-1.12.0.min.js"></script>
+	<script src="main.js"></script>
+	<link href="style.css" rel="stylesheet" type='text/css'>
+
+</head>
+<body>
+
+<div id="Wrapper">
+	<br>
+	<div id="nVirfuriWrapper" class="centered">
+		<h1>Numărul de vârfuri:</h1><br>
+		<input type="text" id="nVirfuri" class="inputV"><br><br><span id="nVirfuriError">&nbsp;</span>
+	</div>
+
+
+
+	<div id="listaTitle" class="centered">
+		<h1>Lista de adiacență:</h1><br>
+		<div id="error">&nbsp;</div>
+		<br>
+		<table id="matrice"></table>
+	</div>
+
+	<br>
+	<div id="grafWrapper" class="centered">
+		<a href="graf.html" target="_blank"><button>Reprezentare grafică</button></a>
+	</div>
+
+	<div id="algoritm" class="centered">
+		<h1>Rădăcina:</h1><br>
+		<input type="text" id="radacina" class="inputV">&nbsp;&nbsp;&nbsp;<span id="radacinaError">&nbsp;</span>
+		<br><br>
+		<div id="parcurgeri">
+			<h1>Parcurgerea în lărgime:</h1><br>
+			<div id="largime"></div><br>
+			<h1>Parcurgerea în adâncime:</h1><br>
+			<div id="adancime"></div>
+		</div>
+	</div>
+
+</div>
+<br><br>
+<div id="copy" class="centered">Miron Constantin &copy; gr. AI-151, UTM, 2016</div>
+<br><br>
+</body>
+</html>
